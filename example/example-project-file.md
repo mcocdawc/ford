@@ -11,6 +11,7 @@ github: https://github.com/cmacmackin
 email: john.doe@example.com
 fpp_extensions: fpp
 preprocess: true
+media_dir: ./media_dir
 macro: HAS_DECREMENT
 predocmark: >
 docmark_alt: #
@@ -68,3 +69,7 @@ So you can get numbered equations like this:
 \end{equation}
 So let your imagination run wild. As you can tell, I'm more or less just
 filling in space now. This will be the last sentence.
+
+[See this test file](|media|/test_file.txt)
+
+
